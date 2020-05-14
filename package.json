@@ -1,0 +1,38 @@
+{
+  "name": "@geeeger/scroll-into-view",
+  "version": "1.0.0",
+  "description": "scrollIntoView tool",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/geeeger/scroll-into-view.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "scrollIntoView"
+  ],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "bugs": {
+    "url": "https://github.com/geeeger/scroll-into-view/issues"
+  },
+  "homepage": "https://github.com/geeeger/scroll-into-view#readme",
+  "author": "geeeger <lph1988520@sina.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5",
+    "typescript": "^3.9.2"
+  }
+}
